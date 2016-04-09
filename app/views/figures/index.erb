@@ -1,0 +1,7 @@
+<% unless locals.empty? %>
+  <%= message %>
+<% end %>
+
+<% @figures.all.each do |figure| %>
+  <h1><%=figure.name %>
+<%end%>

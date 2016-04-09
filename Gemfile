@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem "rack", ">= 1.3.0", "< 1.6.0"
 gem 'activerecord', :require => 'active_record'
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 gem 'sqlite3'
